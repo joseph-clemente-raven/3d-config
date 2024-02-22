@@ -13,8 +13,7 @@
   display: flex;
   align-items: center;
   justify-content: space-around;
-  background-color: white;
-  color:white;
+  background-image: linear-gradient(to right, #ff7e5f, #feb47b); /* Gradient colors */
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
@@ -23,21 +22,22 @@
   border-radius: 13px;
   box-shadow: 20px 40px 33px rgba(0,0,0,0.3);
   padding: 2rem;
-  background-color:#f58216;
+  background-color: white;
+  border: 3px black solid;
 }
 
 .product-canvas {
   width: 35vw;
   height: 38vh;
-  background:white;
+  background:lightgray;
+  border: 3px black dashed;
   border-radius: 0px;
-  margin-bottom:20px
-
+  margin-bottom:20px;
 }
 
 .colors {
-display:flex;
-flex-direction:row;
+  display:flex;
+  flex-direction:row;
 }
 
 .colors div {padding:8px;}

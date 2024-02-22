@@ -16,7 +16,7 @@ function App() {
                   <Canvas>
                     <Suspense fallback={null}>
                       <ambientLight/>
-                      <spotLight intensity={0.9} angle={0.1} penumbra={1} position={[10,15,10]} castShadow/>
+                      <spotLight intensity={500} angle={0.1} penumbra={1} position={[10,15,10]} castShadow={true}/>
                       <OrbitControls enablePan enableZoom enableRotate/>
                       <Model customColors={{mesh, strips, soul}} />
                     </Suspense>
