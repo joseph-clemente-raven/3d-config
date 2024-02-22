@@ -25,16 +25,16 @@ function App() {
                 <h2>Color picker</h2>
                 <div class='colors'>
                     <div>
-                        <input type="color" id="head" name="head" value="#ffffff" onChange={(e) => setMesh(e.target.value)}/>
+                        <input type="color" id="head" name="head" value={mesh} onChange={(e) => setMesh(e.target.value)}/>
                         <label for="head">Main</label>
                     </div>
 
                     <div>
-                        <input type="color" id="body" name="body" value="#ffffff" onChange={(e) => setStrips(e.target.value)}/>
+                        <input type="color" id="body" name="body" value={strips} onChange={(e) => setStrips(e.target.value)}/>
                         <label for="body">Stripes</label>
                     </div>
                     <div>
-                        <input type="color" id="body" name="body" value="#ffffff" onChange={(e) => setSoul(e.target.value)}/>
+                        <input type="color" id="body" name="body" value={soul} onChange={(e) => setSoul(e.target.value)}/>
                         <label for="body">Soul</label>
                     </div>
                 </div>
