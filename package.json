@@ -2,6 +2,7 @@
   "name": "3d-config",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://joseph-clemente-raven.github.io/3d-config/",
   "dependencies": {
     "@material-tailwind/react": "^2.1.9",
     "@react-three/drei": "^9.99.0",
